@@ -1,0 +1,88 @@
+site_name: BRUTAL.
+site_url: https://brutal.studio
+description: A creative studio that breaks conventions. We design brands, build digital products, and create unforgettable experiences.
+lang: en
+docs_dir: docs
+templates_dir: templates
+output_dir: site
+
+nav:
+  - Home: index.md
+  - Work:
+    - work/index.md
+    - work/neon-nights/index.md
+    - work/tech-forward/index.md
+    - work/urban-flow/index.md
+    - work/minimal-max/index.md
+  - Services:
+    - services/index.md
+  - About:
+    - about/index.md
+  - Contact:
+    - contact/index.md
+
+theme:
+  primary_color: "#000000"
+  accent_color: "#ff0000"
+  text_color: "#111111"
+  font_family: "'Space Grotesk', sans-serif"
+
+logo: false
+favicon: false
+
+header:
+  offerings:
+    - Work: /work/
+    - Services: /services/
+    - About: /about/
+    - Contact: /contact/
+  cta:
+    label: Let's Talk
+    url: /contact/
+
+footer:
+  tagline: "Breaking conventions since 2019."
+  email: hello@brutal.studio
+  links:
+    Studio:
+      - Work: /work/
+      - Services: /services/
+      - About: /about/
+      - Contact: /contact/
+    Social:
+      - Instagram: https://instagram.com
+      - Twitter: https://twitter.com
+      - Dribbble: https://dribbble.com
+      - LinkedIn: https://linkedin.com
+  copyright: "© 2026 BRUTAL. All rights reserved."
+  legal:
+    - Imprint: /imprint/
+    - Privacy: /privacy/
+    - Terms: /terms/
+
+extra_css:
+  - assets/css/brutal.css
+  - assets/css/brutal-visuals.css
+
+extra_head:
+  - '<link rel="preconnect" href="https://fonts.googleapis.com">'
+  - '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+  - '<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">'
+
+extra:
+  wire:
+    default_refresh_days: 30
+    sidebar_cta:
+      title: "Got a project?"
+      description: "Let's create something bold together."
+      link: /contact/
+      link_text: "Get in Touch"
+    labels:
+      on_this_page: "On This Page"
+      related_articles: "Related Articles"
+      read_more: "Read More"
+    article_cta:
+      title: "Ready to break some rules?"
+      description: "We're always looking for ambitious brands and fearless projects."
+      link: /contact/
+      link_text: "Let's Talk"
