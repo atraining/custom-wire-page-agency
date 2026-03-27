@@ -1,0 +1,6 @@
+.env
+wire.log
+.wire/
+site/
+*.png
+__pycache__/
