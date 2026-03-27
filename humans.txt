@@ -1,0 +1,8 @@
+/* TEAM */
+Site: BRUTAL.
+Built with: Wire (https://wire.wise-relations.com)
+
+/* TECHNOLOGY */
+Generator: Wire
+Language: Python
+Standards: HTML5, CSS3, Schema.org
